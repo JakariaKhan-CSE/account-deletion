@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Account</title>
+</head>
+<body>
+    <h1>Request Account Deletion</h1>
+    <p>If you want to delete your account and all associated data, please fill out the form below. We will process your request within 7 business days.</p>
+    <form action="/submit-deletion-request" method="POST">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="reason">Reason for Deletion (optional):</label>
+        <textarea id="reason" name="reason"></textarea>
+        <br><br>
+        <button type="submit">Submit Request</button>
+    </form>
+</body>
+</html>
